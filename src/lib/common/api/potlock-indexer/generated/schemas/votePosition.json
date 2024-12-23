@@ -1,0 +1,1 @@
+{"type":"object","properties":{"votable_address":{"type":"string"},"votable_object_id":{"type":"string"},"voting_power":{"type":"string"}},"required":["votable_address","votable_object_id","voting_power"],"x-readme-ref-name":"VotePosition"}

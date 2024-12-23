@@ -1,0 +1,41 @@
+{
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	"typescript.preferences.importModuleSpecifier": "shortest",
+	"cSpell.words": [
+		"attributify",
+		"bitget",
+		"fastnear",
+		"kubb",
+		"localnet",
+		"METAPOOL",
+		"mpdao",
+		"nadabot",
+		"narwallets",
+		"naxios",
+		"nearfi",
+		"potfactory",
+		"potlock",
+		"ramper",
+		"SOURCECODE",
+		"unocss",
+		"wagmi",
+		"welldone",
+		"wpdas",
+		"xdefi"
+	],
+	"typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,1 @@
+{"enum":["Pending","Approved","Rejected","InReview","Blacklisted"],"type":"string","description":"* `Pending` - Pending\n* `Approved` - Approved\n* `Rejected` - Rejected\n* `InReview` - InReview\n* `Blacklisted` - Blacklisted","x-readme-ref-name":"Status68eEnum"}
