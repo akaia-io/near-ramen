@@ -19,6 +19,10 @@ export type ContractConfig = ByAccountId & {};
 export type EnvConfig = {
 	platformName: string;
 	network: SupportedNetwork;
+
+	contracts: {
+		socialDb: ContractConfig;
+	};
 };
 
 export type UnionFromStringList<ListOfMembers extends string[]> = ListOfMembers[number];
