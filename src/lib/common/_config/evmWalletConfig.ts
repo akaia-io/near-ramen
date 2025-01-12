@@ -26,5 +26,3 @@ export const evmWalletChains = {
 };
 
 export const EVMWalletChain = evmWalletChains[NETWORK as Network];
-
-export const projectId = "1adabeaaefb2b771ff4ebdf902b128b7";

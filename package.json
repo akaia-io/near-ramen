@@ -61,6 +61,7 @@
 		"@near-wallet-selector/meteor-wallet": "^8.9.15",
 		"@near-wallet-selector/mintbase-wallet": "^8.9.15",
 		"@near-wallet-selector/modal-ui": "^8.9.15",
+		"@near-wallet-selector/modal-ui-js": "^8.9.15",
 		"@near-wallet-selector/my-near-wallet": "^8.9.15",
 		"@near-wallet-selector/narwallets": "^8.9.15",
 		"@near-wallet-selector/near-mobile-wallet": "^8.9.15",

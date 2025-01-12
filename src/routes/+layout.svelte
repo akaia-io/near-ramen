@@ -1,12 +1,12 @@
 <script lang="ts">
 	import "@unocss/reset/tailwind-compat.css";
+	import "@near-wallet-selector/modal-ui/styles.css";
 	import "uno.css";
 	import "../app.css";
 	import { ModeWatcher } from "mode-watcher";
 	import { Button } from "$common/ui/components";
-	import { LoginButton } from "$lib/common/services/auth";
 
-	let { children, data: _ } = $props();
+	let { children, data } = $props();
 </script>
 
 <ModeWatcher />
@@ -24,7 +24,7 @@
 	<Button borderless href="/">🏠 Home</Button>
 
 	<div flex="~ wrap" gap="4">
-		<LoginButton />
+		<Button onClick={data.modal?.show}>Sign In</Button>
 	</div>
 </nav>
 
