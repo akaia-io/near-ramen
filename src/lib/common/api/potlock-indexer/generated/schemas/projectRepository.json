@@ -1,1 +1,0 @@
-{"type":"object","properties":{"id":{"type":"integer","readOnly":true},"label":{"type":"string","maxLength":255},"url":{"type":"string","format":"uri","maxLength":200}},"required":["id","label","url"],"x-readme-ref-name":"ProjectRepository"}

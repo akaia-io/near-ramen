@@ -1,1 +1,0 @@
-{"enum":["NEW","APPROVED","REJECTED","COMPLETED"],"type":"string","description":"* `NEW` - New\n* `APPROVED` - Approved\n* `REJECTED` - Rejected\n* `COMPLETED` - Completed","x-readme-ref-name":"ProjectStatusEnum"}

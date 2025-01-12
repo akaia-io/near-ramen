@@ -1,1 +1,0 @@
-{"type":"object","properties":{"id":{"type":"integer","readOnly":true},"name":{"type":"string","maxLength":255},"contract_address":{"type":"string","maxLength":255}},"required":["contract_address","id","name"],"x-readme-ref-name":"ProjectContract"}
