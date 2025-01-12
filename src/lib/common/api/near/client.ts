@@ -39,9 +39,9 @@ export const initWalletSelector = async () =>
 			// }),
 
 			setupMyNearWallet(),
+			setupMeteorWallet(),
 			setupSender(),
 			setupHereWallet(),
-			setupMeteorWallet(),
 			setupLedger(),
 			setupNearMobileWallet(),
 			setupNightly(),
