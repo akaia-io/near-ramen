@@ -5,7 +5,7 @@
 	"scripts": {
 		"generate:api-clients": "kubb generate",
 		"generate": "bun generate:api-clients && bun format",
-		"dev": "vite dev --host",
+		"dev": "bun install && vite dev --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",

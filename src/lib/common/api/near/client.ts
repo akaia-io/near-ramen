@@ -6,10 +6,6 @@ import { FULL_TGAS } from "$lib/common/constants";
 import { setupBitgetWallet } from "@near-wallet-selector/bitget-wallet";
 import { setupBitteWallet } from "@near-wallet-selector/bitte-wallet";
 import { setupCoin98Wallet } from "@near-wallet-selector/coin98-wallet";
-import {
-	setupEthereumWallets,
-	type EthereumWalletsParams,
-} from "@near-wallet-selector/ethereum-wallets";
 import { setupLedger } from "@near-wallet-selector/ledger";
 import { setupMathWallet } from "@near-wallet-selector/math-wallet";
 import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
