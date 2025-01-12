@@ -3,7 +3,8 @@ import { createConfig, http, reconnect } from "@wagmi/core";
 import { createWeb3Modal } from "@web3modal/wagmi";
 
 import { NETWORK } from "$common/_config";
-import { EVMWalletChain, projectId } from "$common/_config/evmWalletConfig";
+import { EVMWalletChain } from "$lib/common/_config/evm";
+import { WALLETCONNECT_PROJECT_ID } from "$lib/common/constants";
 
 // Config
 const near = {
@@ -30,8 +31,9 @@ const near = {
 export const wagmiConfig = createConfig({
 	chains: [near],
 	transports: { [near.id]: http() },
+
 	connectors: [
-		walletConnect({ projectId, showQrModal: false }),
+		walletConnect({ projectId: WALLETCONNECT_PROJECT_ID, showQrModal: false }),
 		injected({ shimDisconnect: true }),
 	],
 });
@@ -42,5 +44,5 @@ reconnect(wagmiConfig);
 // Modal for login
 export const web3Modal = createWeb3Modal({
 	wagmiConfig,
-	projectId,
+	projectId: WALLETCONNECT_PROJECT_ID,
 });

@@ -2,10 +2,11 @@
  *! Heads up! Types defined here can ONLY use external dependencies!
  */
 
-import type { Network } from "@wpdas/naxios";
 import type { Account } from "near-api-js";
 
 export type { infer as FromSchema } from "zod";
+
+export type SupportedNetwork = "mainnet" | "testnet";
 
 export type AccountId = Account["accountId"];
 
@@ -17,7 +18,7 @@ export type ContractConfig = ByAccountId & {};
 
 export type EnvConfig = {
 	platformName: string;
-	network: Network;
+	network: SupportedNetwork;
 };
 
 export type UnionFromStringList<ListOfMembers extends string[]> = ListOfMembers[number];

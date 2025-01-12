@@ -4,10 +4,6 @@ import { envConfig as testEnvConfig } from "./test.env-config";
 import type { EnvConfig, UnionFromStringList } from "../types";
 import { env } from "$env/dynamic/public";
 
-export const supportedNetworks = ["mainnet" as const, "testnet" as const];
-
-export type SupportedNetwork = UnionFromStringList<typeof supportedNetworks>;
-
 export const envTags = ["production" as const, "staging" as const, "test" as const];
 
 export type EnvTag = UnionFromStringList<typeof envTags>;
